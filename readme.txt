@@ -6,7 +6,6 @@ Hardware setup: Savagely destroy a Gamecube controller extension wire, splice th
 Better instructions coming very soon.
 TODO: Output live stats to some sort of display. Flash LEDs on each action for extra style.
 
-I'm using a slightly modified version of the Nintendo library by NicoHood (https://github.com/NicoHood/Nintendo) which will be uploaded shortly. See the submodule (when I upload it) for license information.
-It was modified to support reading both directions without writing to the controller or console, since I designed this to be as easy to build as possible (read - no hardware aside from an Arduino board and a Gamecube controller extension cord, and optionally some LEDs and resistors) and I don't think either the Gamecube or the controller would appreciate 5v in their data lines.
+I'm using a slightly modified version of the Nintendo library by NicoHood (https://github.com/NicoHood/Nintendo) which is available here : https://github.com/jmontineri/Nintendo The modifications are necessary for this to work. The license information for the library can be found on its page.
 
-(c) Copyright Jonathan Montineri, 2018. This project is licensed under the terms of the GPLv3 license.
+(c) Copyright Jonathan Montineri, 2018. This project (and only this project, not including the modified Nintendo library) is licensed under the terms of the GPLv3 license.
